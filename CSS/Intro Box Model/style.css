@@ -11,6 +11,32 @@ li{
 
 .email-box{
     background-color: white;
-    width: 250px;
-    margin: auto;
+    width: 400px;
+    margin: 150px auto;
+    border: 1px solid rgb(237, 234, 234);
+    border-radius: 14px;
+}
+
+.email-img{
+    padding: 20px 5px 5px 10px;
+}
+
+.otp-input{
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 300px;/*DBT*/
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 300px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
