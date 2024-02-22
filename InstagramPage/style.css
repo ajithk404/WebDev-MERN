@@ -74,3 +74,8 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.name-text{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.728);
+}
