@@ -43,3 +43,34 @@ body{
     font-size: 14px;
     font-weight: 500;
 }
+
+.info{
+    display: flex;
+    width: 900px;
+    transform: translate(30%,5%);
+    align-items: center;
+    justify-content: center;
+}
+
+.img-div{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 200px;
+}
+.img-goog{
+    width: 150px;
+    height: 150px;
+}
+.info-flex{
+    display: flex;
+    width: 900px;
+}
+
+.name{
+    display: flex;
+    width: 150px;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
