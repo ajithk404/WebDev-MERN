@@ -44,38 +44,86 @@ body{
     font-weight: 500;
 }
 
-.info{
-    display: flex;
+.profile{
+    text-align: center;
     width: 900px;
-    transform: translate(30%,5%);
+    margin: 10px auto;
+    padding: 50px;
+    display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.img-div{
-    border: 1px solid lightgray;
-    border-radius: 50%;
-    width: 200px;
+.img-dp{
+    height: 140px;
+    margin-right: 100px;
 }
-.img-goog{
-    width: 150px;
-    height: 150px;
-}
-.info-flex{
+
+.profilename{
     display: flex;
-    width: 900px;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.name-div{
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.btns{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.btnFollow{
+    padding: 8px 14px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
 }
 
 .name{
-    display: flex;
-    width: 150px;
-    gap: 10px;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
+    color: rgb(71, 66, 66);
+    font-weight: normal;
+    font-size: 22px;
 }
 
-.name-text{
-    font-size: 24px;
-    color: rgba(0, 0, 0, 0.728);
+.followers{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.follower{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.name2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.handlename{
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.984);
+    font-weight: 500;
+   
+}
+
+.handle{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
 }
