@@ -180,3 +180,45 @@ h2{
     margin:0;
     margin-top: 4px;
 }
+
+.sec-highlights{
+    text-align: center;
+    width: 900px;
+    margin: 10px auto;    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.highlight{
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    margin: 5px;
+    padding: 5px;
+    background-clip: content-box;
+}
+
+.bluegrad{
+    background-color: rgb(146, 174, 212);
+}
+
+.blue{
+    background-color: rgb(66,132,244);
+}
+
+.red{
+    background-color: rgb(233,67,53);
+}
+
+.yellow{
+    background-color: rgb(249,189,5);
+}
+
+.green{
+    background-color: rgb(58,181,73);
+}
