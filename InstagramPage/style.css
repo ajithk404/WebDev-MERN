@@ -222,3 +222,7 @@ h2{
 .green{
     background-color: rgb(58,181,73);
 }
+
+.highlight-text{
+    font-size: 14px;
+}
