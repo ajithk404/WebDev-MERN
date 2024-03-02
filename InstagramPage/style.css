@@ -226,3 +226,55 @@ h2{
 .highlight-text{
     font-size: 14px;
 }
+
+#posts{
+    width: 900px;
+    margin: 50px auto;
+    border-top: 1px solid lightgray;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.postnav{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+.nav2text{
+    font-size: 12px;
+}
+
+.reelsnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.taggednav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+   
+}
+
+.toppadding{
+    padding-top: 10px;
+}
+
+.posts{
+    margin-top: 10px;
+    width: 900px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
