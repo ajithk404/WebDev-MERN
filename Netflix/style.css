@@ -22,3 +22,48 @@ body{
     bottom: 0;
     position: absolute;
 }
+
+.nav{
+    position: absolute;
+    top: 6%;
+    width: 990px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navButtons{
+    display: flex;
+    align-items: center;
+}
+
+.lang{
+    display: flex;
+    background-color: rgb(14,6,4);
+    align-items: center;
+    border: 1px solid rgb(95,95,95);
+    padding: 6px 24px;
+    border-radius: 6px;
+    margin: 10px;
+    gap:10px;
+}
+
+.lang-select{
+    border: 0px;
+    outline: 0px;
+    background-color: rgb(14,6,4);
+    color: white;
+    font-size: 18px;
+}
+
+.signin{
+    background-color: rgb(229,9,20);
+    color: white;
+    padding: 8px 18px;
+    font-size: 16px;
+    border: none;
+    margin: 18px;
+    border-radius: 8px;
+}
