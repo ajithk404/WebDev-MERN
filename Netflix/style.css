@@ -67,3 +67,33 @@ body{
     margin: 18px;
     border-radius: 8px;
 }
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.price{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.ready{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: normal;
+}
