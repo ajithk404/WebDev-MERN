@@ -26,7 +26,7 @@ body{
 .nav{
     position: absolute;
     top: 6%;
-    width: 990px;
+    width: 1190px;
     display: flex;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -44,10 +44,10 @@ body{
     background-color: rgb(14,6,4);
     align-items: center;
     border: 1px solid rgb(95,95,95);
-    padding: 6px 24px;
+    padding: 6px 14px;
     border-radius: 6px;
     margin: 10px;
-    gap:10px;
+    gap:8px;
 }
 
 .lang-select{
@@ -55,14 +55,14 @@ body{
     outline: 0px;
     background-color: rgb(14,6,4);
     color: white;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .signin{
     background-color: rgb(229,9,20);
     color: white;
     padding: 8px 18px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     margin: 18px;
     border-radius: 8px;
