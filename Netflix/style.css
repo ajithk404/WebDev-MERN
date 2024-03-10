@@ -173,3 +173,84 @@ body{
 .tredningnow{
     color: white;
 }
+
+section{
+    border-bottom: 8px solid gray;
+    display: flex;
+    color: white;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.sec{
+    padding: 56px 0 76px;
+
+}
+.text {
+    width: 600px;
+}
+.video{
+    position: relative;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.text p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.img1{
+    width: 550px;
+    z-index: 100;
+}
+
+.vid1{
+    position: absolute;
+    top: 85px;
+    left: 72px;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    z-index: -1;
+}
+
+.download{
+    display: flex;
+    width: 300px;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    left: 180px;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 18px;
+    padding: 6px 10px;
+    gap: 20px;
+    align-items: center;
+    margin: 0 -20px;
+
+}
+
+.video2{
+    display: flex;
+    position:relative;
+}
+
+.download img{
+    height: 80px;
+}
+
+.download #stranger{
+    display: flex;
+    flex-direction: column;
+}
+
+.downloding{
+    color: blue;
+}
