@@ -293,6 +293,7 @@ section{
 
 .faq:hover{
     background-color: rgba(120, 118, 118, 0.537);
+    cursor: pointer;
 }
 
 .sec1 h3{
