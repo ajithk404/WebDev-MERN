@@ -185,7 +185,7 @@ section{
 }
 .sec{
     padding: 56px 0 76px;
-
+    text-align: center;
 }
 .text {
     width: 600px;
@@ -253,4 +253,63 @@ section{
 
 .downloding{
     color: blue;
+}
+
+.vid2{
+    position: absolute;
+    top: 35px;
+    left: 102px;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    z-index: -1;
+}
+
+.sec1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.sec1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.faq{
+    background-color: rgb(45,45,45);
+    margin: 10px auto;
+    font-size: 24px;
+    align-items: center;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0px;
+}
+
+.faq:hover{
+    background-color: rgba(120, 118, 118, 0.537);
+}
+
+.sec1 h3{
+    font-size: 1.25rem;
+}
+
+.email-signup1{
+    display: flex;
+    gap: 8px;
+}
+
+.email-input1{
+    padding: 24px 16px 8px;
+    border: 1px solid rgb(92, 82, 82);
+    background-color: rgba(50, 49, 49, 0.818);
+    font-size: 17px;
+    color: white;
+    width: 350px;
+    border-radius: 2px;
 }
